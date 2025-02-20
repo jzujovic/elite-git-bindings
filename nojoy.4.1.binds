@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <Root PresetName="nojoy" MajorVersion="4" MinorVersion="1">
-	<KeyboardLayout>hr-HR</KeyboardLayout>
+	<KeyboardLayout>en-GB</KeyboardLayout>
 	<MouseXMode Value="Bindings_MouseYaw" />
 	<MouseXDecay Value="1" />
 	<MouseYMode Value="Bindings_MousePitch" />
@@ -271,7 +271,7 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</BackwardThrustButton_Landing>
 	<ToggleFlightAssist>
-		<Primary Device="Keyboard" Key="Key_Y" />
+		<Primary Device="Keyboard" Key="Key_Z" />
 		<Secondary Device="{NoDevice}" Key="" />
 		<ToggleOn Value="1" />
 	</ToggleFlightAssist>
@@ -341,11 +341,11 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</SelectTargetsTarget>
 	<WingNavLock>
-		<Primary Device="Keyboard" Key="Key_ž" />
+		<Primary Device="Keyboard" Key="Key_Hash" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</WingNavLock>
 	<CycleNextSubsystem>
-		<Primary Device="Keyboard" Key="Key_Z" />
+		<Primary Device="Keyboard" Key="Key_Y" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</CycleNextSubsystem>
 	<CyclePreviousSubsystem>
@@ -369,7 +369,9 @@
 		<Secondary Device="Mouse" Key="Neg_Mouse_ZAxis" />
 	</CycleFireGroupNext>
 	<CycleFireGroupPrevious>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="Keyboard" Key="Key_N">
+			<Hold Value="1" />
+		</Primary>
 		<Secondary Device="Mouse" Key="Pos_Mouse_ZAxis" />
 	</CycleFireGroupPrevious>
 	<DeployHardpointToggle>
@@ -416,7 +418,7 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</IncreaseSystemsPower>
 	<ResetPowerDistribution>
-		<Primary Device="Keyboard" Key="Key_¸" />
+		<Primary Device="Keyboard" Key="Key_Grave" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</ResetPowerDistribution>
 	<HMDReset>
@@ -540,7 +542,7 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</PlayerHUDModeToggle>
 	<ExplorationFSSEnter>
-		<Primary Device="Keyboard" Key="Key_ć" />
+		<Primary Device="Keyboard" Key="Key_Apostrophe" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</ExplorationFSSEnter>
 	<UI_Up>
@@ -568,7 +570,7 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</UI_Back>
 	<UI_Toggle>
-		<Primary Device="Keyboard" Key="Key_Plus" />
+		<Primary Device="Keyboard" Key="Key_Equals" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</UI_Toggle>
 	<CycleNextPanel>
@@ -584,7 +586,7 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</CycleNextPage>
 	<CyclePreviousPage>
-		<Primary Device="Keyboard" Key="Key_Y" />
+		<Primary Device="Keyboard" Key="Key_Z" />
 		<Secondary Device="Keyboard" Key="Key_Insert" />
 	</CyclePreviousPage>
 	<MouseHeadlook Value="1" />
@@ -700,7 +702,7 @@
 		<Deadzone Value="0.00000000" />
 	</CamZoomAxis>
 	<CamZoomIn>
-		<Primary Device="Keyboard" Key="Key_Y" />
+		<Primary Device="Keyboard" Key="Key_Z" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</CamZoomIn>
 	<CamZoomOut>
@@ -717,7 +719,7 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</GalaxyMapHome>
 	<ToggleDriveAssist>
-		<Primary Device="Keyboard" Key="Key_Y" />
+		<Primary Device="Keyboard" Key="Key_Z" />
 		<Secondary Device="{NoDevice}" Key="" />
 		<ToggleOn Value="1" />
 	</ToggleDriveAssist>
@@ -881,7 +883,7 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</IncreaseSystemsPower_Buggy>
 	<ResetPowerDistribution_Buggy>
-		<Primary Device="Keyboard" Key="Key_¸" />
+		<Primary Device="Keyboard" Key="Key_Grave" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</ResetPowerDistribution_Buggy>
 	<ToggleCargoScoop_Buggy>
@@ -1265,7 +1267,7 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</FStopInc>
 	<CommanderCreator_Undo>
-		<Primary Device="Keyboard" Key="Key_Y" />
+		<Primary Device="Keyboard" Key="Key_Z" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</CommanderCreator_Undo>
 	<CommanderCreator_Redo>
@@ -1505,7 +1507,7 @@
 		<ToggleOn Value="1" />
 	</HumanoidSprintButton>
 	<HumanoidWalkButton>
-		<Primary Device="Keyboard" Key="Key_Minus" />
+		<Primary Device="Keyboard" Key="Key_Slash" />
 		<Secondary Device="{NoDevice}" Key="" />
 		<ToggleOn Value="1" />
 	</HumanoidWalkButton>
@@ -1641,7 +1643,7 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</HumanoidToggleShieldsButton>
 	<HumanoidClearAuthorityLevel>
-		<Primary Device="Keyboard" Key="Key_Apostrophe" />
+		<Primary Device="Keyboard" Key="Key_Minus" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</HumanoidClearAuthorityLevel>
 	<HumanoidHealthPack>
@@ -1735,7 +1737,7 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</StoreCamZoomIn>
 	<StoreCamZoomOut>
-		<Primary Device="Keyboard" Key="Key_Y" />
+		<Primary Device="Keyboard" Key="Key_Z" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</StoreCamZoomOut>
 	<StoreToggle>
